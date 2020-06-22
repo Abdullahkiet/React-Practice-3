@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Child() {
-    
+function Child(props) {
+
   return (
     <div>
-        Child
+        Child number {props.num}
 
     </div>
   );
